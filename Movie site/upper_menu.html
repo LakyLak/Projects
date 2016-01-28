@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upper Menu</title>
+
+    <style type="text/css">
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            /*font-size: 14px;*/
+            /*font-size: 12px;*/
+            margin: 0;
+        }
+        #container {
+            width: 100%;
+            max-width: 1170px;
+            margin: 0 auto;
+        }
+        header {
+            height: 160px;
+        }
+        header #header_up {
+            height: 80px;
+            background-color: #1F2324;
+        }
+        #header_up #logo_section {
+            float: left;
+            height: 20px;
+            color: white;
+            font-size: 3.5em;
+            font-weight: bold;
+            /*margin: 15px 0 0 10%;*/
+            /*margin: 10px 0 0 35%;*/
+        }
+
+        #header_up #upper_menu {
+
+            /*margin: 0 0 0 10%;*/
+            /*margin: 0 0 0 23%;*/
+            display: inline-block;
+        }
+        #header_up #upper_menu #upper_menu_ul {
+            /*width: 500px;*/
+            /*width: 400px;*/
+            /*margin: 20px 0;*/
+            /*margin: 24px 0;*/
+            font-size: 0.9em;
+            padding: 0;
+            list-style: none;
+            float: left;
+        }
+        #header_up #upper_menu #upper_menu_ul li {
+            text-transform: uppercase;
+            display: inline-block;
+            padding: 0 4% 0 0 ;
+        }
+        #header_up #upper_menu #upper_menu_ul li a {
+            text-decoration: none;
+            color: #c3c3c3;
+        }
+        #header_up #upper_menu #upper_menu_ul li a:hover {
+            color: white;
+        }
+        #glass {
+            padding: 0;
+        }
+
+        @media (min-width: 890px) {
+            body {
+                font-size: 14px;
+            }
+            #header_up #logo_section {
+                margin: 15px 0 0 10%;
+            }
+            #header_up #upper_menu {
+                margin: 0 0 0 10%;
+            }
+            #header_up #upper_menu #upper_menu_ul {
+                width: 500px;
+                margin: 20px 0;
+            }
+        }
+
+        @media (max-width: 889px) {
+            body {
+                font-size: 12px;
+            }
+            #header_up #logo_section {
+                margin: 10px 0 0 35%;
+            }
+            #header_up #upper_menu {
+                margin: 0 0 0 23%;
+            }
+            #header_up #upper_menu #upper_menu_ul {
+                width: 400px;
+                margin: 24px 0;
+            }
+        }
+        @media (max-width: 520px) {
+
+        }
+
+    </style>
+
+</head>
+<body>
+<div id="container">
+    <header>
+        <div id="header_up">
+            <div id="logo_section">
+                <div id="logo">MOVIES</div>
+            </div>
+            <div id="upper_menu">
+                <ul id="upper_menu_ul">
+                    <li class="upper_menu_item"><a href="">Home</a></li>
+                    <li class="upper_menu_item"><a href="">About</a></li>
+                    <li class="upper_menu_item"><a href="">Most Popular</a></li>
+                    <li class="upper_menu_item"><a href="">News</a></li>
+                    <li class="upper_menu_item"><a href="">Contacts</a></li>
+                    <li class="upper_menu_item" id="glass"><a href="">&#x1f50d</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</div>
+
+</body>
+</html>

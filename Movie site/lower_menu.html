@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lower Menu</title>
+    <style type="text/css">
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            margin: 0;
+        }
+        #container {
+            width: 100%;
+            max-width: 1170px;
+            margin: 0 auto;
+        }
+        header {
+            height: 330px;
+
+        }
+        header #header_down {
+            height: 260px;
+            background-color: #F73B4C;
+        }
+        header #header_down #lower_menu {
+
+        }
+        header #header_down #lower_menu #lower_menu_ul {
+            margin: 0 auto;
+            width: 150px;
+            padding: 30px 0;
+            list-style: none;
+        }
+        header #header_down #lower_menu #lower_menu_ul li {
+            padding: 8px;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 1.3em;
+            display: block;
+        }
+        header #header_down #lower_menu #lower_menu_ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        header #header_down #lower_menu #lower_menu_ul li a:hover {
+            color: #c3c3c3;
+        }
+        @media (min-width: 890px) {
+            body {
+                font-size: 14px;
+            }
+            header {
+                height: 160px;
+            }
+            header #header_down {
+                height: 90px;
+            }
+            header #header_down #lower_menu #lower_menu_ul {
+                width: 800px;
+                padding: 20px 0;
+            }
+            header #header_down #lower_menu #lower_menu_ul li {
+                padding: 15px 1.5%;
+                text-align: left;
+                display: inline-block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="header_down">
+                <div id="lower_menu">
+                    <ul id="lower_menu_ul">
+                        <li class="lower_menu_item"><a href="">Cinema Movies</a></li>
+                        <li class="lower_menu_item"><a href="">TV Series</a></li>
+                        <li class="lower_menu_item"><a href="">Cartoons</a></li>
+                        <li class="lower_menu_item"><a href="">Anime</a></li>
+                        <li class="lower_menu_item"><a href="">News Movies</a></li>
+                        <li class="lower_menu_item"><a href="">HD Movies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+</body>
+</html>
